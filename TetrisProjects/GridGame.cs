@@ -11,7 +11,7 @@ namespace TetrisProjects
         Vector2 GridSize;
         char[,] gameGrid;
 
-        public char border = '#',
+        public static char border = '#',
             block = 'O', 
             clear = ' ';
                     
